@@ -1,0 +1,72 @@
+//// bootstrapping
+////@import  'variables_mixins.scss';
+////@import  'reset.scss';
+////@import  'typography.scss';
+////@import  'forms_buttons.scss';
+////@import  'icons.scss';
+////@import  'content_list.scss';
+////@import  'editing.scss';
+////
+// layout
+////@import  'header.scss';
+////@import  'woof.scss';
+////@import  'dialog.scss';
+////@import  'popover.scss';
+////@import  'profiler.scss';
+////@import  'boards_sidebar.scss';
+////@import  'tabbedpane.scss';
+////
+// board
+////@import  'board.scss';
+////@import  'list.scss';
+////@import  'powerup.scss';
+////@import  'calendar.scss';
+////
+// card
+////@import  'card.scss';
+////@import  'quickCardEditor.scss';
+////@import  'attachments.scss';
+////@import  'badges.scss';
+////@import  'checklists.scss';
+////@import  'labels.scss';
+////@import  'datepicker.scss';
+////@import  'stickers.scss';
+////
+// member
+////@import  'member.scss';
+////@import  'announcements.scss';
+////
+// organization
+////@import  'organization.scss';
+////
+// phenom - acions, notifications, invites
+////@import  'phenom.scss';
+////
+// pages
+////@import  'manual.scss';
+////@import  'account.scss';
+////@import  'search.scss';
+////@import  'ads.scss';
+////
+// window sizes
+////@import  'lg.scss';
+////@import  'md.scss';
+////@import  'sm.scss';
+////@import  'touch.scss';
+////
+// utils
+////@import  'spinner.scss';
+////@import  'utils.scss';
+////@import  'jquery.crop.scss';
+////@import  'tooltip.scss';
+////@import  'clipboard.scss';
+////
+// print
+////@import  'print.scss';
+////
+
+@import 'components/navigation.scss';
+@import 'layout/main.scss';
+@import 'card/main_card.scss';
+@import 'components/buttons.scss';
+@import 'bootstrapping/typography.scss';

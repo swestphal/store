@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAmB;EACjB,cAAc,EAAE,OAAO;EACvB,UAAU,EAAE,IAAI",
+"sources": ["../scss/bootstrapping/typography.scss"],
+"names": [],
+"file": "typography.css"
+}

@@ -1,0 +1,7 @@
+.card {
+  padding: 10px; }
+
+.card > *:first-child {
+  border: 4px solid #fff; }
+
+/*# sourceMappingURL=main_card.css.map */

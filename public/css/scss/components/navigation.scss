@@ -1,0 +1,120 @@
+.inner-wrap {
+  position: relative;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.fi {
+  display: inline-block;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+.nav-wrapper {
+
+  a {
+    font-size: .8em;
+  }
+
+  li {
+    float: left;
+    display: inline;
+    padding-right: 1.25rem;
+  }
+  ul.nav-products {
+
+    list-style-type: none;
+
+  }
+
+  .top-bar-services {
+
+    .fi {
+      padding-right: .25rem;
+    }
+    margin-top: 12px;
+
+    ul {
+      margin-bottom: .5rem !important;
+    }
+    hr {
+      margin-bottom: .5rem;
+    }
+  }
+  .top-nav {
+
+    position: relative;
+
+    .top-bar {
+      background-color: #fff;
+      float: left;
+      padding: 0;
+      //height: 2.8125rem;
+      //line-height: 2.8125rem;
+      position: relative;
+      margin-bottom: 0;
+
+      nav {
+        display: block;
+
+      }
+
+      ul {
+        background-color: #fff;
+        list-style: none;
+        font-size: 1rem;
+        line-height: 1.6;
+      }
+
+      .logo-area {
+        float: left;
+        position: relative;
+        //margin: 0;
+
+        .name {
+          font-weight: 500;
+        }
+
+        .logo img {
+          width: 240px;
+          height: 44px;
+        }
+      }
+    }
+
+    .top-bar-section {
+      float: none !important;
+      width: auto;
+      position: relative;
+      transition: left 300ms ease-out;
+
+      ul {
+        width: auto;
+        height: auto;
+      }
+
+      ul.nav-auxiliary {
+        list-style: none;
+
+        li {
+          padding-right: .1rem;
+          float: left;
+          display: inline;
+        }
+      }
+
+      li a {
+        line-height: 2.8125rem;
+        padding: 0 0.9375rem;
+      }
+
+    }
+  }
+
+}

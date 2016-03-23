@@ -30,7 +30,7 @@ abstract class Controller
         $view = '../application/views/' . get_class($this) . '/' . $this->action . '.php';
         if ($fullview) {
 
-            require_once('../application/views/main.php');
+            require_once('../application/views/main.scss');
         } else {
             require_once($view);
         }
