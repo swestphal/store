@@ -13,7 +13,7 @@
   vertical-align: middle; }
 
 .nav-wrapper a {
-  font-size: .8em; }
+  font-size: 1rem; }
 .nav-wrapper li {
   float: left;
   display: inline;
@@ -32,7 +32,6 @@
   position: relative; }
   .nav-wrapper .top-nav .top-bar {
     background-color: #fff;
-    float: left;
     padding: 0;
     position: relative;
     margin-bottom: 0; }
@@ -81,6 +80,11 @@
 .container-centered {
   text-align: center; }
 
+ul.list-inline {
+  margin-left: 0; }
+  ul.list-inline li {
+    display: inline-block; }
+
 .card {
   padding: 10px; }
 
@@ -89,7 +93,7 @@
 
 a.button.button-default {
   width: 120px;
-  border: 2px solid #909090;
+  border: 1px solid #909090;
   background: transparent;
   color: #3a3a3a;
   transition: all 0.6s ease 0s; }
@@ -99,8 +103,53 @@ a.button.button-default:hover {
   color: #7a7a7a;
   transition: all 0.6s ease 0s; }
 
+body *, html * {
+  color: #6a6a6a;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700; }
+
+.top-bar-section .nav-products li a {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700; }
+
+a:hover,
+a:focus {
+  color: #1a1a1a; }
+
 .container-spacy p {
   letter-spacing: 0.04rem;
   margin-top: 30px; }
+
+footer {
+  background: #fff; }
+  footer hr {
+    margin-top: 1rem;
+    margin-bottom: 3rem; }
+  footer .address {
+    margin-bottom: .2rem; }
+    footer .address span {
+      font-weight: 600;
+      width: 25%;
+      display: inline-block; }
+
+.footer-services {
+  margin-top: 20px;
+  line-height: 3rem; }
+  .footer-services h5 {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top; }
+  .footer-services i {
+    width: 20%; }
 
 /*# sourceMappingURL=core.css.map */

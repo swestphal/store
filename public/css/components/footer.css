@@ -1,4 +1,23 @@
 footer {
   background: #fff; }
+  footer hr {
+    margin-top: 1rem;
+    margin-bottom: 3rem; }
+  footer .address {
+    margin-bottom: .2rem; }
+    footer .address span {
+      font-weight: 600;
+      width: 25%;
+      display: inline-block; }
+
+.footer-services {
+  margin-top: 20px;
+  line-height: 3rem; }
+  .footer-services h5 {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top; }
+  .footer-services i {
+    width: 20%; }
 
 /*# sourceMappingURL=footer.css.map */

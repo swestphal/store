@@ -1,5 +1,41 @@
+$text-color: #6a6a6a;
+$font-heading: $text-color;
+$text-color-hover: #1a1a1a;
+
+$header-font: 'Raleway', sans-serif;
+$text-font: 'Lato', sans-serif;
+
+body *, html * {
+  color: $text-color;
+  font-family: $text-font;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $header-font;
+  font-weight: 700;
+}
+
+.top-bar-section .nav-products li a {
+  font-family: $header-font;
+  font-weight: 700;
+}
+
+a:hover,
+a:focus {
+  color: $text-color-hover;
+}
+
 .container-spacy p {
   letter-spacing: 0.04rem;
   margin-top: 30px;
 }
+
+
 

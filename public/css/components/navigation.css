@@ -13,7 +13,7 @@
   vertical-align: middle; }
 
 .nav-wrapper a {
-  font-size: .8em; }
+  font-size: 1rem; }
 .nav-wrapper li {
   float: left;
   display: inline;
@@ -32,7 +32,6 @@
   position: relative; }
   .nav-wrapper .top-nav .top-bar {
     background-color: #fff;
-    float: left;
     padding: 0;
     position: relative;
     margin-bottom: 0; }

@@ -10,4 +10,9 @@
 .container-centered {
   text-align: center; }
 
+ul.list-inline {
+  margin-left: 0; }
+  ul.list-inline li {
+    display: inline-block; }
+
 /*# sourceMappingURL=main.css.map */

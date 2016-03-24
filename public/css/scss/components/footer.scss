@@ -1,3 +1,35 @@
 footer {
   background: #fff;
+
+  hr {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .address {
+    margin-bottom: .2rem;
+    span {
+      font-weight: 600;
+      width: 25%;
+      display: inline-block;
+
+    }
+
+  }
+}
+
+.footer-services {
+  margin-top: 20px;
+  line-height: 3rem;
+
+  h5 {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  i {
+    width: 20%;
+
+  }
 }

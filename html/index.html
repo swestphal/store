@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="../public/css/core.css"/>
     <link rel="stylesheet" href="../public/fonts/foundation-icons/foundation-icons.css"/>
     <link rel="stylesheet" href="../public/fonts/linecons/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900'
+          rel='stylesheet' type='text/css'>
     <!-- Insert this within your head tag and after foundation.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css"/>
 </head>
@@ -44,41 +48,39 @@
                         </a>
                     </li>
                 </ul>
+
+                <section class="top-bar-section">
+                    <ul class="nav-products left">
+                        <li><a href="#" class="top-level-link">Category_1</a></li>
+                        <li><a href="#" class="top-level-link">Category_2</a></li>
+                        <li><a href="#" class="top-level-link">Category_3</a></li>
+                        <li><a href="#" class="top-level-link">Category_4</a></li>
+                    </ul>
+
+                    <ul class="nav-auxiliary right hide-for-small">
+                        <li class="top-level-button">
+                            <a href="" class="search-launch">
+                                <i class="fi fi-shopping-cart"></i>
+                            </a>
+                        </li>
+
+                        <li class="top-level-button">
+                            <a href="" class="search-launch">
+                                <i class="fi fi-torso"></i>
+                            </a>
+                        </li>
+
+                        <li class="top-level-button search-container" style="display:none;">
+                            <input type="text" id="top-search-input" class="hide" placeholder="search...">
+                        </li>
+                        <li class="top-level-button">
+                            <a href="" class="search-launch">
+                                <i class="fi fi-magnifying-glass"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
             </nav>
-            <section class="top-bar-section">
-                <ul class="nav-products left">
-                    <li><a href="#" class="top-level-link">Category_1</a></li>
-                    <li><a href="#" class="top-level-link">Category_2</a></li>
-                    <li><a href="#" class="top-level-link">Category_3</a></li>
-                    <li><a href="#" class="top-level-link">Category_4</a></li>
-                </ul>
-
-                <ul class="nav-auxiliary right hide-for-small">
-                    <li class="top-level-button"><a href="">About</a></li>
-                    <li class="top-level-button"><a href="">Blog</a></li>
-
-                    <li class="top-level-button">
-                        <a href="" class="search-launch">
-                            <i class="fi fi-shopping-cart"></i>
-                        </a>
-                    </li>
-
-                    <li class="top-level-button">
-                        <a href="" class="search-launch">
-                            <i class="fi fi-torso"></i>
-                        </a>
-                    </li>
-
-                    <li class="top-level-button search-container" style="display:none;">
-                        <input type="text" id="top-search-input" class="hide" placeholder="search...">
-                    </li>
-                    <li class="top-level-button">
-                        <a href="" class="search-launch">
-                            <i class="fi fi-magnifying-glass"></i>
-                        </a>
-                    </li>
-                </ul>
-            </section>
         </div>
     </div>
 
@@ -170,26 +172,28 @@
     </div>
 
     <footer>
-        <div class="footer-services row">
+        <div class="row footer-services">
             <div class="large-3 columns">
-                <a class="left" href="">Customer Loyality Programs
+                <a class="left" href=""><h5>Customer Loyality Programs</h5>
                     <i class="right li li_like"></i>
                 </a>
             </div>
             <div class="large-3 columns">
-                <a href="">Worldwide Shipping
+                <a href=""><h5>Worldwide Shipping</h5>
                     <i class="right li li_world"></i>
                 </a>
             </div>
             <div class="large-3 columns">
-                <a href="">24/7 Technical Support
+                <a href=""><h5>24/7 Technical Support</h5>
                     <i class="right li li_bubble"></i>
                 </a>
             </div>
-            <div class="large-3 columns"><a href="">Returns and Exchanges
-                <i class="right li li_banknote"></i>
-            </a></div>
+            <div class="large-3 columns">
+                <a href=""><h5>Returns and Exchanges</h5>
+                    <i class="right li li_banknote"></i>
+                </a></div>
         </div>
+        <hr>
         <div class="footer-info row">
             <div class="large-6 columns">
                 <div class="footer-about">
@@ -214,6 +218,9 @@
                     <h4>Contacts</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi qui repellendus voluptatum?
                         Eligendi iure, ullam?</p>
+                    <p class="address"><span>Adress:</span>Nice way 7, Oklahoma</p>
+                    <p class="address"><span>Phone:</span>+0716324324</p>
+                    <p class="address"><span>E-mail:</span>shop@superstore.com</p>
                 </div>
             </div>
             <div class="large-3 columns">
