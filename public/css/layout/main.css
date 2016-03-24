@@ -1,7 +1,8 @@
+body {
+  background: #f6f3f3; }
+
 .main-content {
   background: #F6F3F3; }
-  .main-content img {
-    height: 100%; }
 
 .container-spacy {
   margin-top: 4rem;

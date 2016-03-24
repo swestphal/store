@@ -12,11 +12,13 @@ footer {
 
 .footer-services {
   margin-top: 20px;
-  line-height: 3rem; }
+  line-height: 3rem;
+  padding-top: 20px; }
   .footer-services h5 {
     width: 80%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    margin-bottom: 0; }
   .footer-services i {
     width: 20%; }
 

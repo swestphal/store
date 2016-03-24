@@ -68,10 +68,11 @@
       line-height: 2.8125rem;
       padding: 0 0.9375rem; }
 
+body {
+  background: #f6f3f3; }
+
 .main-content {
   background: #F6F3F3; }
-  .main-content img {
-    height: 100%; }
 
 .container-spacy {
   margin-top: 4rem;
@@ -85,23 +86,40 @@ ul.list-inline {
   ul.list-inline li {
     display: inline-block; }
 
-.card {
-  padding: 10px; }
-
 .card > *:first-child {
   border: 4px solid #fff; }
+
+.card-container {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px auto; }
+  .card-container .product-view-select {
+    text-align: center; }
+    .card-container .product-view-select img {
+      max-width: 100%;
+      padding-bottom: 15px; }
+
+.tabs-content {
+  border-left: none;
+  border-right: none; }
 
 a.button.button-default {
   width: 120px;
   border: 1px solid #909090;
   background: transparent;
   color: #3a3a3a;
-  transition: all 0.6s ease 0s; }
+  transition: all 0.6s ease 0s;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
 
 a.button.button-default:hover {
   background: #E8E8E8;
   color: #7a7a7a;
   transition: all 0.6s ease 0s; }
+
+button.button {
+  border-radius: 27px; }
 
 body *, html * {
   color: #6a6a6a;
@@ -144,12 +162,17 @@ footer {
 
 .footer-services {
   margin-top: 20px;
-  line-height: 3rem; }
+  line-height: 3rem;
+  padding-top: 20px; }
   .footer-services h5 {
     width: 80%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    margin-bottom: 0; }
   .footer-services i {
     width: 20%; }
+
+footer {
+  margin-top: 40px; }
 
 /*# sourceMappingURL=core.css.map */

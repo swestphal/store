@@ -1,7 +1,18 @@
-.card {
-  padding: 10px; }
-
 .card > *:first-child {
   border: 4px solid #fff; }
+
+.card-container {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px auto; }
+  .card-container .product-view-select {
+    text-align: center; }
+    .card-container .product-view-select img {
+      max-width: 100%;
+      padding-bottom: 15px; }
+
+.tabs-content {
+  border-left: none;
+  border-right: none; }
 
 /*# sourceMappingURL=main_card.css.map */
