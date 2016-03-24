@@ -1,4 +1,13 @@
 a.button.button-default {
-  border-radius: 20px;
   width: 120px;
+  border: 2px solid #909090;
+  background: transparent;
+  color: #3a3a3a;
+  transition: all 0.6s ease 0s;
+}
+
+a.button.button-default:hover {
+  background: #E8E8E8;
+  color: #7a7a7a;
+  transition: all 0.6s ease 0s;
 }
